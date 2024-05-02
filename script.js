@@ -41,7 +41,7 @@ function drawRecaman(value) {
   // Draw the Recaman sequence
   ctx.beginPath();
 
-  for (let i = 0; i < value; i++) {
+  for (let i = 1; i < value; i++) {
     const currentNumber = sequence[i];
     const prevNumber = sequence[i-1];
     const radius = Math.abs(prevNumber-currentNumber)/2; // Calculate the radius
